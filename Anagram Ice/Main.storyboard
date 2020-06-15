@@ -99,7 +99,7 @@
             <objects>
                 <viewController id="dVZ-qN-gzn" customClass="GameScreenViewController" customModule="Anagram_Ice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dot-YF-ILw">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2ex-dY-rJS">
@@ -190,22 +190,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="USu-HS-NjD">
-                                <rect key="frame" x="94" y="536" width="171" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Play Again"/>
-                                <connections>
-                                    <action selector="playAgainButtonPressed:" destination="2pf-s9-Q0V" eventType="touchUpInside" id="Iyw-FM-Egq"/>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="QJs-1N-ojG"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="7fZ-el-sCR"/>
                     </view>
                     <navigationItem key="navigationItem" id="GFS-Bi-Qe8"/>
                     <connections>
-                        <outlet property="playAgainButton" destination="USu-HS-NjD" id="uwV-sG-zL8"/>
                         <outlet property="scoreLabel" destination="LgA-d7-4T0" id="ibZ-dk-GJG"/>
                     </connections>
                 </viewController>
@@ -214,7 +204,4 @@
             <point key="canvasLocation" x="2877.5999999999999" y="119.70443349753695"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="QJs-1N-ojG"/>
-    </inferredMetricsTieBreakers>
 </document>
