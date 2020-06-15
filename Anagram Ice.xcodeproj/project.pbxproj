@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AD70EB4F8395EDF8C67AEB2 /* Pods_Anagram_Ice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C362C94BAFCAD02A155A46 /* Pods_Anagram_Ice.framework */; };
+		AF8E79532489A1CF00BF1459 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8E79522489A1CF00BF1459 /* AppDelegate.swift */; };
+		AF8E79552489A1CF00BF1459 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8E79542489A1CF00BF1459 /* SceneDelegate.swift */; };
+		AF8E79572489A1CF00BF1459 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8E79562489A1CF00BF1459 /* HomeScreenViewController.swift */; };
+		AF8E795C2489A1D000BF1459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF8E795B2489A1D000BF1459 /* Assets.xcassets */; };
+		AF8E795F2489A1D000BF1459 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF8E795D2489A1D000BF1459 /* LaunchScreen.storyboard */; };
+		AF8E79672489A28600BF1459 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF8E79662489A28600BF1459 /* Main.storyboard */; };
+		AF8E79692489A6E900BF1459 /* GameScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8E79682489A6E900BF1459 /* GameScreenViewController.swift */; };
+		AF8E796C2489A82900BF1459 /* GameInterfaceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8E796B2489A82900BF1459 /* GameInterfaceData.swift */; };
+		AF8E7970248EFF6500BF1459 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF8E796F248EFF6500BF1459 /* GoogleService-Info.plist */; };
+		AF90096924970EDC00F62881 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF90096824970EDC00F62881 /* ResultsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24C362C94BAFCAD02A155A46 /* Pods_Anagram_Ice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Anagram_Ice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		370EF902B4973C8DEC7CE7E3 /* Pods-Anagram Ice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Anagram Ice.debug.xcconfig"; path = "Target Support Files/Pods-Anagram Ice/Pods-Anagram Ice.debug.xcconfig"; sourceTree = "<group>"; };
+		A7A269BBA1934A800252F16F /* Pods-Anagram Ice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Anagram Ice.release.xcconfig"; path = "Target Support Files/Pods-Anagram Ice/Pods-Anagram Ice.release.xcconfig"; sourceTree = "<group>"; };
+		AF8E794F2489A1CF00BF1459 /* Anagram Ice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anagram Ice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF8E79522489A1CF00BF1459 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF8E79542489A1CF00BF1459 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AF8E79562489A1CF00BF1459 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		AF8E795B2489A1D000BF1459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF8E795E2489A1D000BF1459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF8E79602489A1D000BF1459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF8E79662489A28600BF1459 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AF8E79682489A6E900BF1459 /* GameScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScreenViewController.swift; sourceTree = "<group>"; };
+		AF8E796B2489A82900BF1459 /* GameInterfaceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameInterfaceData.swift; sourceTree = "<group>"; };
+		AF8E796F248EFF6500BF1459 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AF90096824970EDC00F62881 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF8E794C2489A1CF00BF1459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD70EB4F8395EDF8C67AEB2 /* Pods_Anagram_Ice.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		357B54212B4F657B6C1911D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				370EF902B4973C8DEC7CE7E3 /* Pods-Anagram Ice.debug.xcconfig */,
+				A7A269BBA1934A800252F16F /* Pods-Anagram Ice.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AF8E79462489A1CF00BF1459 = {
+			isa = PBXGroup;
+			children = (
+				AF8E796F248EFF6500BF1459 /* GoogleService-Info.plist */,
+				AF8E79512489A1CF00BF1459 /* Anagram Ice */,
+				AF8E79502489A1CF00BF1459 /* Products */,
+				357B54212B4F657B6C1911D1 /* Pods */,
+				D59E84F6E181273E00435811 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AF8E79502489A1CF00BF1459 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF8E794F2489A1CF00BF1459 /* Anagram Ice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF8E79512489A1CF00BF1459 /* Anagram Ice */ = {
+			isa = PBXGroup;
+			children = (
+				AF8E796E248EDE7B00BF1459 /* Delegates */,
+				AF8E796A2489A6F200BF1459 /* View Controllers */,
+				AF8E795B2489A1D000BF1459 /* Assets.xcassets */,
+				AF8E79662489A28600BF1459 /* Main.storyboard */,
+				AF8E796D248E821E00BF1459 /* Model */,
+				AF8E795D2489A1D000BF1459 /* LaunchScreen.storyboard */,
+				AF8E79602489A1D000BF1459 /* Info.plist */,
+			);
+			path = "Anagram Ice";
+			sourceTree = "<group>";
+		};
+		AF8E796A2489A6F200BF1459 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AF8E79562489A1CF00BF1459 /* HomeScreenViewController.swift */,
+				AF8E79682489A6E900BF1459 /* GameScreenViewController.swift */,
+				AF90096824970EDC00F62881 /* ResultsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		AF8E796D248E821E00BF1459 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF8E796B2489A82900BF1459 /* GameInterfaceData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF8E796E248EDE7B00BF1459 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				AF8E79522489A1CF00BF1459 /* AppDelegate.swift */,
+				AF8E79542489A1CF00BF1459 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		D59E84F6E181273E00435811 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24C362C94BAFCAD02A155A46 /* Pods_Anagram_Ice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF8E794E2489A1CF00BF1459 /* Anagram Ice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF8E79632489A1D000BF1459 /* Build configuration list for PBXNativeTarget "Anagram Ice" */;
+			buildPhases = (
+				0201C8034B36E4FD59144358 /* [CP] Check Pods Manifest.lock */,
+				AF8E794B2489A1CF00BF1459 /* Sources */,
+				AF8E794C2489A1CF00BF1459 /* Frameworks */,
+				AF8E794D2489A1CF00BF1459 /* Resources */,
+				8AAD72CFFE73032260C29120 /* [CP] Embed Pods Frameworks */,
+				747FDFF441DECD23B7A4A5C9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Anagram Ice";
+			productName = "Anagram Ice";
+			productReference = AF8E794F2489A1CF00BF1459 /* Anagram Ice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF8E79472489A1CF00BF1459 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = FirstTry;
+				TargetAttributes = {
+					AF8E794E2489A1CF00BF1459 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = AF8E794A2489A1CF00BF1459 /* Build configuration list for PBXProject "Anagram Ice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF8E79462489A1CF00BF1459;
+			productRefGroup = AF8E79502489A1CF00BF1459 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF8E794E2489A1CF00BF1459 /* Anagram Ice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF8E794D2489A1CF00BF1459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8E79672489A28600BF1459 /* Main.storyboard in Resources */,
+				AF8E795F2489A1D000BF1459 /* LaunchScreen.storyboard in Resources */,
+				AF8E795C2489A1D000BF1459 /* Assets.xcassets in Resources */,
+				AF8E7970248EFF6500BF1459 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0201C8034B36E4FD59144358 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Anagram Ice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		747FDFF441DECD23B7A4A5C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Anagram Ice/Pods-Anagram Ice-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Anagram Ice/Pods-Anagram Ice-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Anagram Ice/Pods-Anagram Ice-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AAD72CFFE73032260C29120 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Anagram Ice/Pods-Anagram Ice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Anagram Ice/Pods-Anagram Ice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Anagram Ice/Pods-Anagram Ice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF8E794B2489A1CF00BF1459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8E79572489A1CF00BF1459 /* HomeScreenViewController.swift in Sources */,
+				AF8E79532489A1CF00BF1459 /* AppDelegate.swift in Sources */,
+				AF8E79692489A6E900BF1459 /* GameScreenViewController.swift in Sources */,
+				AF8E796C2489A82900BF1459 /* GameInterfaceData.swift in Sources */,
+				AF8E79552489A1CF00BF1459 /* SceneDelegate.swift in Sources */,
+				AF90096924970EDC00F62881 /* ResultsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF8E795D2489A1D000BF1459 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF8E795E2489A1D000BF1459 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF8E79612489A1D000BF1459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF8E79622489A1D000BF1459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF8E79642489A1D000BF1459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 370EF902B4973C8DEC7CE7E3 /* Pods-Anagram Ice.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UQHQ6RY249;
+				INFOPLIST_FILE = "Anagram Ice/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nyu.ak4351.Anagram-Ice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF8E79652489A1D000BF1459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7A269BBA1934A800252F16F /* Pods-Anagram Ice.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UQHQ6RY249;
+				INFOPLIST_FILE = "Anagram Ice/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.nyu.ak4351.Anagram-Ice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF8E794A2489A1CF00BF1459 /* Build configuration list for PBXProject "Anagram Ice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF8E79612489A1D000BF1459 /* Debug */,
+				AF8E79622489A1D000BF1459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF8E79632489A1D000BF1459 /* Build configuration list for PBXNativeTarget "Anagram Ice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF8E79642489A1D000BF1459 /* Debug */,
+				AF8E79652489A1D000BF1459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF8E79472489A1CF00BF1459 /* Project object */;
+}

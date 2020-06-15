@@ -1,0 +1,6 @@
+framework module Pods_Anagram_Ice {
+  umbrella header "Pods-Anagram Ice-umbrella.h"
+
+  export *
+  module * { export * }
+}
