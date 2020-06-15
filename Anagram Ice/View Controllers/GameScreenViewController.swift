@@ -237,9 +237,8 @@ class GameScreenViewController: UIViewController {
         }
     }
 
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "showResultsSegue" {
-            let controller = segue.destination as! ResultsViewController
-        }
-    }
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if segue.identifier == "showResultsSegue" {
+//        }
+//    }
 }
